@@ -16,7 +16,13 @@ const TweetDetail = ( {tweetData} ) => {
             tag
         } = tweetData; //deconstructing
 
-    
+    const checkForVerified = () => {
+        if(verified){
+            return (
+                <Icon name='md-checkmark-circle-outline' style={{color:'#0383FA', fontSize: 17}} />
+            );
+        }
+    };
 
     return(
         <View>
@@ -28,8 +34,7 @@ const TweetDetail = ( {tweetData} ) => {
                             <View>
                                 <View style={{flexDirection: 'row', justifyContent: 'space-between'}} >
                                     <Text style={styles.usrNameStyle}>{userName}</Text>
-                                    <Icon name='md-checkmark-circle-outline' style={{color:'#0383FA', fontSize: 17}} />
-                                    
+                                    {checkForVerified()}
                                     <Text note>{userHandle}</Text>
                                     <Text> . {time}</Text>
                                     <Icon name='md-arrow-dropdown' style={{color:'#7C7B7B'}}/>
