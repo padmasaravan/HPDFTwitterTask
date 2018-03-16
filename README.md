@@ -17,8 +17,9 @@ This app was developed as part of **Hasura Product Development Fellowship – Ve
 - Drawer  built using the  **Drawer** component of Native Base and **Custom SideBar** component
 - Tweet Feed data is hardcoded in a separate file and imported as and when needed. Can also be implemented by making an API call to the backend.
 
-<img src='/readme-assets/Screenshot_3.png' width='300' >
-<img src='/readme-assets/Screenshot_2.png' width='300' >
+<img src='/readme-assets/Screenshot_2.png' width='300' align="left">          <img src='/readme-assets/Screenshot_3.png' width='300' >
+
+
 #### Set up development environment
 
 - Follow the steps as mentioned in "Getting Started" section of react-native website in the 
