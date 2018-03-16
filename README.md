@@ -6,6 +6,8 @@ This app was developed as part of **Hasura Product Development Fellowship – Ve
 - Built with React Native 
 - Supports Android as of now
 
+<img src='/readme-assets/Screenshot_1.png' width='500' >
+
 #### Features:-
 
 - React Native Project (Created by react native init)
